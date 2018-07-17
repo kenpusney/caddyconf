@@ -1,0 +1,7 @@
+ci.kimleo.net {
+    log
+    proxy / 127.0.0.1:10086 {
+	websocket
+        transparent
+    }
+}
