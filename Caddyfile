@@ -1,27 +1,8 @@
-ci.kimleo.net {
-    log
-    proxy / 127.0.0.1:10086 {
-	websocket
-        transparent
-    }
-}
 
 fw.kimleo.net {
    log 
-   proxy / 127.0.0.1:7500 {
+   proxy / mate:9527 {
         websocket
-	transparent
+	    transparent
     }
 }
-
-*.tun.tnb.tw {
-   tls {
-        dns dnspod
-   }
-   log
-   proxy / 127.0.0.1:1580 {
-        websocket
-        transparent
-    }
-}
-
