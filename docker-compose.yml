@@ -13,8 +13,9 @@ services:
     networks:
       - mate
   jaus:
-    image: kenpusney/jaus
-    volumes: ./data:/data
+    image: kenpusney/jaus:demo
+    volumes:
+      - ./data:/data
     networks:
       - mate
 
