@@ -12,6 +12,11 @@ services:
       - "443:443"
     networks:
       - mate
+  jaus:
+    image: kenpusney/jaus
+    volumes: ./data:/data
+    networks:
+      - mate
 
 networks:
   mate:

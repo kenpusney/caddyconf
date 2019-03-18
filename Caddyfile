@@ -6,3 +6,12 @@ fw.kimleo.net {
 	    transparent
     }
 }
+
+tnb.tw {
+   log
+   proxy / jaus:8888 {
+     websocket
+     transparent
+   }
+}
+
